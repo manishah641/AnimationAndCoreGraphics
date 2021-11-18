@@ -13,11 +13,7 @@ enum APiError :Error {
  
     
     static let shared = APICaller()
-     let headers = [
-         "content-type": "application/x-www-form-urlencoded",
-         "x-rapidapi-host": "worldwide-restaurants.p.rapidapi.com",
-         "x-rapidapi-key": "acf0dd9a9amsh1d39ad519442ddfp11ee9ejsn1fd48b2b91aa"
-     ]
+ 
       let url = "https://worldwide-restaurants.p.rapidapi.com/search"
     
     public func getData(completion:@escaping (Result<[Resturant],Error>)-> Void){

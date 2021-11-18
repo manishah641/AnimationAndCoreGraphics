@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A87F099AD00BA98BF5551D4 /* Pods_ShoppingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E184CF44FA3B0B364966F04 /* Pods_ShoppingApp.framework */; };
+		2B3F25D72746B85100C75735 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3F25D62746B85100C75735 /* Constant.swift */; };
 		2BF784BC2720239400516022 /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF784BB2720239400516022 /* VisionViewController.swift */; };
 		80707A4D2711A37B00C2ABC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80707A4C2711A37B00C2ABC9 /* AppDelegate.swift */; };
 		80707A4F2711A37B00C2ABC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80707A4E2711A37B00C2ABC9 /* SceneDelegate.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B3F25D62746B85100C75735 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		2BF784BB2720239400516022 /* VisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionViewController.swift; sourceTree = "<group>"; };
 		5711995491BCC2EEB4F5A37F /* Pods-ShoppingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingApp.debug.xcconfig"; path = "Target Support Files/Pods-ShoppingApp/Pods-ShoppingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7E184CF44FA3B0B364966F04 /* Pods_ShoppingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoppingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				809246332714E39B00BAD181 /* APICaller.swift */,
+				2B3F25D62746B85100C75735 /* Constant.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				80707A6E2711F5A000C2ABC9 /* Ext.swift in Sources */,
 				809246392714F62000BAD181 /* ResturentResponceViewModel.swift in Sources */,
 				809246342714E39B00BAD181 /* APICaller.swift in Sources */,
+				2B3F25D72746B85100C75735 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
